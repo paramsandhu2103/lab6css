@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tilt Warp', cursive;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+main section {
+    height: 30vw;
+
+}
+
+main section:nth-of-type(1) {
+    background-color: #F4442E;
+    float: left;
+    width: 33.33%;
+
+}
+
+main section:nth-of-type(2) {
+    background-color: #FC9E4F;
+    width: 33.33%;
+
+    float: left;
+
+}
+
+main section:nth-of-type(3) {
+    background-color: #EDD382;
+    width: 33.33%;
+    float: left;
+}
+
+footer {
+    background-color: #020122;
+}
+
+/* LAB 6 - START HERE */
+
+/* Step One - recreate the layout featured in the lab instructions using floats and clear 
+        1.) use floats to align the section elements side by side */
+
+/*2.) use the clear property to fix the footer position */
+
+/* 3.) return to the section style rule and set section elements to 33.3% width */
+
+
+/* Step Two - move footer outside of the main element and recreate he layout, ensuring that main element has a height */
+
+
+/*Step Three - with the footer still outside of main, recreate the layout using Flexbox*/
+
+
+
+/* Bonus Challenge #1 Vertically align the text using flexbox - + 1 mark */
+
+/* Bonus Challenge #2 - vertically align the text without using flexbox - + 1 mark/ */
